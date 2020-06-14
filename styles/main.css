@@ -3,3 +3,23 @@
 body {
     background-color: darkkhaki;
 }
+
+nav {
+    border: palegoldenrod 2px solid;
+}
+
+#mainNavigation {
+    border: darkorange 2px solid;
+    overflow: hidden;
+}
+
+#mainNavigation > li {
+    list-style-type: none; /* remove bullts */
+    float: left;
+}
+
+#mainNavigation > li > a {
+    border: wheat 2px solid;
+    padding: 3px;
+    margin: 3px;
+}
