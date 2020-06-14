@@ -1,23 +1,35 @@
-/*
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-*/
+
 
 body {
     background-color: darkkhaki;
 }
-
-#mainNavigation > ul {
+#navigationContainer {
+    position: relative;
+}
+#topBar {
+    border: gray 2px solid;
+    overflow: hidden;
+}
+#mainNavigation {
     list-style-type: none;
-
+    text-align: center;
 }
-
-#mainNavigation > ul >li {
+#mainNavigation li {
+    display: inline-block;
+}
+#mainNavigation li a {
     text-decoration: none;
+    border: orangered 2px solid;
+    border-radius: 3px;
+    padding: 7px;
+    margin: 3px;
+    color: rgb(0, 0, 0);
+    background-color: goldenrod;
 }
 
-#mainNavigation > ul  > li > a {
-}
