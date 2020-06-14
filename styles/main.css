@@ -1,25 +1,23 @@
-
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
 
 body {
     background-color: darkkhaki;
 }
 
-nav {
-    border: palegoldenrod 2px solid;
+#mainNavigation > ul {
+    list-style-type: none;
+
 }
 
-#mainNavigation {
-    border: darkorange 2px solid;
-    overflow: hidden;
+#mainNavigation > ul >li {
+    text-decoration: none;
 }
 
-#mainNavigation > li {
-    list-style-type: none; /* remove bullts */
-    float: left;
-}
-
-#mainNavigation > li > a {
-    border: wheat 2px solid;
-    padding: 3px;
-    margin: 3px;
+#mainNavigation > ul  > li > a {
 }
