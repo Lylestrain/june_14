@@ -8,18 +8,17 @@
 
 body {
     background-color: darkkhaki;
-    font: 1em sans-serif;
+    font: 16px sans-serif;
 }
-#navigationContainer {
-    position: relative;
-}
+
 #topBar {
     border: gray 2px solid;
     overflow: hidden;
+    background-color: lightslategray;
 }
 #mainNavigation {
     list-style-type: none;
-    text-align: center;
+    text-align: right;
 }
 #mainNavigation li {
     display: inline-block;
@@ -29,7 +28,7 @@ body {
     border: orangered 2px solid;
     border-radius: 3px;
     padding: 7px;
-    margin: 3px;
+    margin: 0px;
     color: rgb(0, 0, 0);
     background-color: goldenrod;
 }
