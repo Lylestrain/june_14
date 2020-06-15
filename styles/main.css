@@ -15,6 +15,8 @@ body {
     border: gray 2px solid;
     overflow: hidden;
     background-color:  lightslategray;
+    position: fixed;
+    top: 0;
 }
 #mainNavigation {
     list-style-type: none;
