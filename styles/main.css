@@ -8,6 +8,7 @@
 
 body {
     background-color: darkkhaki;
+    font: 1em sans-serif;
 }
 #navigationContainer {
     position: relative;
